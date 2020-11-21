@@ -1,7 +1,7 @@
 import pyttsx3
 import PyPDF2
 
-path = "E://PythonStuff//pywinauto.pdf"
+path = "E://PythonStuff//pywinauto.pdf"   #You can add your file path/location here
 reader_init = pyttsx3.init()
 file=open(path,"rb")
 reader=PyPDF2.PdfFileReader(file)
